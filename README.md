@@ -1,4 +1,4 @@
-# Data Science Projects Portfolio
+# Data Science Projects Portfolio - Abel Fernando Soto Rossell
 
 ## Overview
 This repository contains a curated selection of my most relevant **data science and analytics projects**, focused on solving real-world business problems through data-driven approaches.  
