@@ -70,6 +70,45 @@ Para habilitar el análisis económico, se generan variables adicionales bajo su
 
 > Estas variables sintéticas están documentadas y se utilizan exclusivamente para simular un entorno de decisión financiera realista.
 
+### Datasets description (From kaggle)
+
+ - **application_train.csv** 
+ 
+ This is the main training dataset, containing demographic, financial, and credit data for loan applicants. It includes information such as income, loan details, payment history, and other financial indicators.
+
+ - **bureau.csv** 
+ 
+ This dataset contains credit history data sourced from external financial institutions. It provides historical credit data about customers, their loan applications, and repayment behaviors.
+
+ - **bureau_balance.csv** 
+ 
+ This file contains time-series information on credit balances for applicants based on bureau credit records. It tracks balances across time and provides insights into credit behavior patterns.
+
+ - **credit_card_balance.csv** 
+ 
+ This dataset contains credit card account balances for applicants. It includes details about spending, payment history, and credit utilization rates.
+
+ - **installment_payments.csv** 
+ 
+ Contains detailed installment payment information for previous loans. This dataset provides insights into payment patterns, delays, and repayment schedules.
+
+ - **previous_application.csv** 
+ 
+ This file provides historical data related to applicants' previous loan applications. It includes loan amounts, application status, payment delays, and other loan application attributes.
+
+ - **POSH_CASH_balance.csv** 
+ 
+ This dataset provides insights into the POSH_CASH financial behavior of loan applicants. It includes detailed financial account balances, which are critical for assessing spending habits, savings, and financial stability. This information can be used to evaluate repayment capabilities and risk factors associated with defaults.
+
+ - **sample_submission.csv** 
+ 
+ This is a template file for submission purposes. It contains the required format for submitting predictions to the competition.
+
+ - **column_description.csv** 
+ 
+ This dataset provides detailed explanations for the column names and features in other datasets. It serves as a reference for understanding variable meanings and data context.
+
+ 
 ---
 
 ## Enfoque analítico
