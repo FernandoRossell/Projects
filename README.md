@@ -20,24 +20,33 @@ The goal of this portfolio is to demonstrate not only technical skills, but also
 ---
 
 ## Projects
-Each folder in this repository represents an independent project and includes:
-- Clear problem definition  
-- Data preparation and exploratory analysis  
-- Modeling or optimization approach  
-- Key results and insights  
-- Business implications  
 
-### Example project topics include:
-- **Node Optimization & Network Analysis**  
-  Applying graph-based methods to identify key nodes, optimize network structure, and extract actionable insights from relationships.
+- ### **Credit Risk Modeling to Profit-Driven Decision Making**
 
-- **Predictive Modeling**  
-  Developing models to forecast outcomes and support decision-making in commercial and strategic contexts.
+  End-to-end analytical framework for retail credit decision optimization, balancing default risk and expected profitability.  
+  The project integrates machine learning risk models, financial metrics, and policy simulation to maximize portfolio-level profit under risk constraints, reflecting real-world challenges faced by senior analytics teams in financial institutions.
 
-- **Commercial & Marketing Analytics**  
-  Designing KPIs and analytical solutions to optimize growth, pricing, and performance.
+  https://github.com/FernandoRossell/credit-portfolio-risk-optimization
 
- Detailed documentation can be found in the `README.md` inside each project folder.
+---
+
+- ### **Market Forecasting & Media Mix Decision Engine**
+  
+  Advanced analytics framework for market-level sales forecasting and marketing investment decision-making.  
+  The project leverages time-series forecasting and Media Mix Modeling (MMM) to estimate incremental impact by channel, simulate budget reallocation scenarios, and evaluate trade-offs using business metrics such as incremental revenue, ROI, and marginal returns.
+
+  https://github.com/FernandoRossell/marketing-investments-optimization
+
+---
+
+- ### **Graph-Based Route Optimization with Mandatory Constraints**
+
+  Analytical solution for constrained shortest-path problems on directed, weighted graphs, motivated by real-world banking logistics use cases such as ATM replenishment and secure asset transportation.  
+  The framework finds minimum-cost routes between origin and destination nodes while enforcing mandatory edge traversal (e.g., secure corridors or monitored roads), and transparently reports infeasible scenarios through traceable error codes.
+
+  The solution models the problem as a state-augmented graph and applies Dijkstra’s algorithm to jointly handle routing optimality, compliance constraints, and extensibility to ordered stops, forbidden nodes/edges, and multi-criteria cost functions (time, risk, fuel).
+
+  https://github.com/FernandoRossell/node-optimization-framework
 
 ---
 
